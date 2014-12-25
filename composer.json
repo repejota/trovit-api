@@ -6,6 +6,10 @@
         {
             "name": "Eric Pinto",
             "email": "ericpinto1985@gmail.com"
+        },
+        {
+            "name": "Raül Pérez",
+            "email": "repejota@gmail.com"
         }
     ],
     "minimum-stability": "beta",
@@ -17,7 +21,12 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/DawnAngel/trovit-api"
+            "url": "https://github.com/repejota/trovit-api"
         }
-    ]
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "codeception/codeception": "*"
+    }
 }
