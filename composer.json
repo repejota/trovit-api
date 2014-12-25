@@ -1,26 +1,36 @@
 {
     "name": "dawnangel/trovit-api",
     "description": "A simple PHP implementation of Trovit Affiliates API http://publishers.trovit.com",
-    "license": "GPL2",
+    "version": "0.0.1",
+    "type": "library",
+    "keywords": ["trovit", "api", "publishers", "affiliates"],
+    "homepage": "https://github.com/repejota/trovit-api",
+    "license": "GPL-2.0",
     "authors": [
         {
             "name": "Eric Pinto",
-            "email": "ericpinto1985@gmail.com"
+            "email": "ericpinto1985@gmail.com",
+            "role": "Developer"
         },
         {
             "name": "Raül Pérez",
-            "email": "repejota@gmail.com"
+            "email": "repejota@gmail.com",
+            "role": "Developer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/DawnAngel/trovit-api/issues"
+    },
     "minimum-stability": "beta",
+    "prefer-stable": true,
     "autoload": {
         "psr-0" : {
-            "DawnAngel\\Trovit-Api" : "Lib"
+            "TrovitApi\\" : "Lib/"
         }
     },
     "repositories": [
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/repejota/trovit-api"
         }
     ],
